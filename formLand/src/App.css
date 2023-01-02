@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Roboto+Mono:wght@471&family=Roboto:ital,wght@1,900&display=swap'); 
+
+body, .bgColor{
+  
+    background-color: #ced0cf;
+    font-family: 'Charm', cursive;
+}
+.wrapper{
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('./asserts/bg3.jpg'); 
+	height: 50vh;
+	background-position: center;
+	background-size: cover;
+}
+.btnColor{
+    background-color:#6a543d;
+    
+}
+
+@media only screen and (min-width: 786px) {
+    .wrapper{
+        background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('./asserts/bg3.jpg'); 
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    
+}
